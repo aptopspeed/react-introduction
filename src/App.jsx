@@ -5,6 +5,7 @@ import Login from "./pages/login/Login"
 import Register from "./pages/register/Register"
 import Header from './components/layout/Header';
 import Sidebar from './components/layout/Sidebar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
       </Routes>
+    <Footer/>
     </>
   );
 }

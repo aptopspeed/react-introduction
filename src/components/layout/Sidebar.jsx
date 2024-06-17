@@ -25,17 +25,25 @@ function Sidebar() {
                 <Link to="/" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
-                    Forms
-                    <i className="fas fa-angle-left right" />
+                    Home
                   </p>
                 </Link>
               </li>
+
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/login" className="nav-link">
                   <i className="nav-icon fas fa-table" />
                   <p>
-                    Tables
-                    <i className="fas fa-angle-left right" />
+                    Login
+                  </p>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/register" className="nav-link">
+                  <i className="nav-icon fas fa-bell" />
+                  <p>
+                    ลงทะเบียน
                   </p>
                 </Link>
               </li>
