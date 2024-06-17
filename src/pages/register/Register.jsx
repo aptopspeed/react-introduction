@@ -3,7 +3,9 @@ import React, { Component } from 'react'
 export default class Register extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "blue"}}>Register</div>
+      <div className='content-wrapper'>
+        Register
+      </div>
     )
   }
 }
