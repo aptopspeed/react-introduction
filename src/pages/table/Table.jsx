@@ -7,7 +7,7 @@ export default class Table extends Component {
     return (
       <div className='content-wrapper'>
         <div className="row">
-          <Tab content="test" color="bg-danger"/>
+          <Tab content="Worawut" color="bg-info"/>
           <Tab content="app" color="bg-dark"/>
         </div>
         <InputForm name="fullname"/>

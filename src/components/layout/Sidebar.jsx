@@ -57,6 +57,15 @@ function Sidebar() {
                 </Link>
               </li>
 
+              <li className="nav-item">
+                <Link to="/test-state" className="nav-link">
+                  <i className="nav-icon fas fa-chart-pie" />
+                  <p>
+                    TestState
+                  </p>
+                </Link>
+              </li>
+
             </ul>
           </nav>
         </div>
