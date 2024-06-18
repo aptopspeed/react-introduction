@@ -37,6 +37,12 @@ export default class Header extends Component {
             </Link>
           </li>
 
+          <li className="nav-item d-none d-sm-inline-block">
+            <Link to="/table-page" className="nav-link">
+              Table-page
+            </Link>
+          </li>
+
         </ul>
        
         {/* Right navbar links */}

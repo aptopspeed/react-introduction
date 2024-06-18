@@ -43,7 +43,16 @@ function Sidebar() {
                 <Link to="/register" className="nav-link">
                   <i className="nav-icon fas fa-book" />
                   <p>
-                    ลงทะเบียน
+                    Register
+                  </p>
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="/table-page" className="nav-link">
+                  <i className="nav-icon fas fa-book" />
+                  <p>
+                    Table-Page
                   </p>
                 </Link>
               </li>
